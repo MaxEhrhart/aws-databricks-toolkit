@@ -1,3 +1,2 @@
-from aws_databricks_toolkit import aws
-from aws_databricks_toolkit import databricks
-__all__ = ["aws", "databricks"]
+from .aws import s3
+__all__ = ["aws"]
