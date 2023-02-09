@@ -1,6 +1,6 @@
 # encoding: latin1
-import os
-from setuptools import setup, find_packages
+from setuptools import setup
+# from setuptools import find_packages
 
 # BUILD_ID = os.environ.get("BUILD_BUILDID", "0")
 setup(
@@ -11,8 +11,8 @@ setup(
     # # Author details
     author="Max",
     author_email="",
-    packages=find_packages("aws_databricks_toolkit"),
-    # packages=['aws_databricks_toolkit', 'aws_databricks_toolkit.aws', 'aws_databricks_toolkit.databricks'],
+    # packages=find_packages("aws_databricks_toolkit"),
+    packages=['aws_databricks_toolkit', 'aws_databricks_toolkit.aws', 'aws_databricks_toolkit.databricks'],
     setup_requires=["boto3"],
     # tests_require=["pytest", "pytest-nunit", "pytest-cov"],
     # extras_require={"develop": ["pre-commit", "bump2version"]},
