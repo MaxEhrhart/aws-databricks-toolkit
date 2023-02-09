@@ -1,1 +1,1 @@
-from . import aws
+from .aws import s3
