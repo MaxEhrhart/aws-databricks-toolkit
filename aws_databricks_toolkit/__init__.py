@@ -1,1 +1,1 @@
-import aws_databricks_toolkit.aws.s3
+import aws_databricks_toolkit.aws
