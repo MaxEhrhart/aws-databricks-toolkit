@@ -1,1 +1,1 @@
-from .aws import s3
+import aws.s3
