@@ -12,6 +12,7 @@ setup(
     # author_email="tdb",
     # packages=find_packages("src"),
     # package_dir={"": "src"},
+    packages=['aws_databricks_toolkit'],
     setup_requires=["boto3"],
     # tests_require=["pytest", "pytest-nunit", "pytest-cov"],
     # extras_require={"develop": ["pre-commit", "bump2version"]},
