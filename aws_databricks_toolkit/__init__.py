@@ -1,2 +1,2 @@
 __all__ = ["aws", "databricks"]
-from .aws import *
+from . import aws
