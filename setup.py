@@ -1,5 +1,5 @@
 # encoding: latin1
-# import os
+import os
 from setuptools import setup, find_packages
 
 # BUILD_ID = os.environ.get("BUILD_BUILDID", "0")
