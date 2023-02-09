@@ -147,7 +147,7 @@ def download_directory(bucket_name, s3_folder, local_dir=None):
     for obj in bucket.objects.filter(Prefix=s3_folder):
         target = obj.key if local_dir is None else os.path.join(local_dir, os.path.relpath(obj.key, s3_folder))
         if not os.path.exists(os.path.dirname(target)):
-            os.makedirs(os.path.dirname(target),  exist_ok=True)
+            os.makedirs(os.path.dirname(target), exist_ok=True)
         if obj.key[-1] == '/':
             continue
         bucket.download_file(obj.key, target)
