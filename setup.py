@@ -4,7 +4,7 @@ from setuptools import setup  # , find_packages
 
 # BUILD_ID = os.environ.get("BUILD_BUILDID", "0")
 setup(
-    name="aws-databricks-toolkit",
+    name="aws_databricks_toolkit",
     version="0.0.1",
     description="A simple library of functions for an aws databricks cloud.",
     # # Author details
