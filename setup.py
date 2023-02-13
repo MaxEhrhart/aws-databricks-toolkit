@@ -15,8 +15,7 @@ setup(
     packages=[
         'aws_databricks_toolkit',
         'aws_databricks_toolkit.aws',
-        'aws_databricks_toolkit.databricks',
-        'aws_databricks_toolkit.databricks.api'
+        'aws_databricks_toolkit.databricks'
     ],
     setup_requires=["boto3"],
     # tests_require=["pytest", "pytest-nunit", "pytest-cov"],
