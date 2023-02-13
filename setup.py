@@ -12,7 +12,12 @@ setup(
     author="Max",
     author_email="",
     # packages=find_packages("aws_databricks_toolkit"),
-    packages=['aws_databricks_toolkit', 'aws_databricks_toolkit.aws', 'aws_databricks_toolkit.databricks'],
+    packages=[
+        'aws_databricks_toolkit',
+        'aws_databricks_toolkit.aws',
+        'aws_databricks_toolkit.databricks',
+        'aws_databricks_toolkit.databricks.api'
+    ],
     setup_requires=["boto3"],
     # tests_require=["pytest", "pytest-nunit", "pytest-cov"],
     # extras_require={"develop": ["pre-commit", "bump2version"]},
